@@ -9,5 +9,13 @@ public class UserController{
 		return "user/login";
 		}
 
+	//update
+		@RequestMapping("/user/update.do")
+		public String update(){
+			logger.info("경로:update");
+
+		return "user/update";
+		}
+
 
 }
